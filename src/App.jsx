@@ -93,7 +93,7 @@ export default function App() {
 
   const nav = (id) => { scrollTo(id); setNavActive(id); };
 
-  const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/https://formspree.io/f/mpqgagjy";
 
   const handleSubmit = async () => {
     if (!form.message.trim()) return;
